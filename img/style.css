@@ -19,6 +19,7 @@ footer__data img {
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -1107,6 +1108,22 @@ color: #555;
         visibility: visible;
         transform: translateX(0);
       }
+
+      .footer_first {
+        order: 5;
+      }
+
+    .nav-open .nav__button .nav__open {
+        display: none;
+    }
+    .nav-open .nav__button .nav__close {
+        display: block;
+        position: absolute;
+        top: 5rem;
+        right: 3rem;
+        font-size: 2.4rem;
+        cursor: pointer;
+    }
 
 }
 
